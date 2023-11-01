@@ -28,6 +28,11 @@ const ChatApp = () => {
           type="text"
           value={newMessage}
           onChange={(e) => setNewMessage(e.target.value)}
+          onKeyUp={(e) => {
+            if (e.key === 'Enter') {
+              handleSendMessage();
+            }
+          }}
         />
         <button onClick={handleSendMessage}>Enviar</button>
       </div>
