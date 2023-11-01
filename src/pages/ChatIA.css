@@ -1,0 +1,8 @@
+/* ChatMessage.css */
+.messages {
+    border: 1px solid black; /* Añade un contorno fino de color negro al contenedor de mensajes */
+    border-radius: 8px;
+    height: 300px; /* Establece una altura fija en píxeles */
+    overflow-y: auto; /* Agrega una barra de desplazamiento vertical si el contenido excede la altura fija */
+  }
+  

@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import ChatMessage from "../components/ChatMessage";
 import { fetchAIResponse } from "../library/IAChat";
+import "./ChatIA.css";
 
 const ChatApp = () => {
   const [messages, setMessages] = useState([]);

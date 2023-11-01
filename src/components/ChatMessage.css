@@ -1,0 +1,24 @@
+/* ChatMessage.css */
+.message {
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    padding: 8px;
+    margin: 4px;
+    max-width: 70%;
+    word-wrap: break-word;
+  }
+  
+  .message.user {
+    background-color: #007bff50;
+    color: white;
+    text-align: right;
+    margin-left: auto;
+  }
+  
+  .message.ai {
+    background-color: #00ff2650;
+    color: black;
+    text-align: left;
+    margin-right: auto;
+  }
+  
